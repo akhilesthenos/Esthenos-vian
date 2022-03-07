@@ -17,7 +17,7 @@ const BrandContainer = () => {
         loop: true,
         speed: 800,
         autoplay: {
-            delay: 2000,
+            delay: 1000,
         },
         slidesPerView: 4,
         spaceBetween: 0,
