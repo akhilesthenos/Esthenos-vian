@@ -18,6 +18,7 @@ const BrandContainer = () => {
         speed: 800,
         autoplay: {
             delay: 1000,
+            disableOnInteraction: false,
         },
         slidesPerView: 4,
         spaceBetween: 0,
