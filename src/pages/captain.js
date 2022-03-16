@@ -13,7 +13,7 @@ const CaptainPage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Buznex – Team" />
+                <SEO title="VIAN – Team" />
                 <div className="wrapper">
                     <Header />
                     <PageBanner

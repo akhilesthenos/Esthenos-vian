@@ -13,7 +13,7 @@ const PolicyPage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Buznex – Team" />
+                <SEO title="BuzVIANnex – Team" />
                 <div className="wrapper">
                     <Header />
                     <PageBanner

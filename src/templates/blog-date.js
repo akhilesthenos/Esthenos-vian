@@ -21,7 +21,7 @@ const BlogDate = ({
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Buznex – Blog Date" />
+                <SEO title="VIAN – Blog Date" />
                 <div className="wrapper">
                     <Header />
                     <PageBanner

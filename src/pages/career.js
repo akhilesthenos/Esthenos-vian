@@ -13,7 +13,7 @@ const CareerPage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Buznex – Contact" />
+                <SEO title="VIAN – Contact" />
                 <div className="wrapper">
                     <Header />
                     <PageBanner
