@@ -88,18 +88,23 @@ const Intro = ({ data }) => {
                             >
                                 <i className="icofont-brand-android-robot size-icon"></i>
                             </Link> */}
-                            <Link
-                                to="/#"
-                                className="es-sty animated delay1 me-4 mb-3 mb-sm-0"
-                            >
-                                <img src="images\appIcon\play.png" alt="" />
-                            </Link>
-                            <Link
-                                to="/#"
-                                className="es-sty animated delay1 me-4 mb-3 mb-sm-0"
-                            >
-                                <img src="images\appIcon\appstore.png" alt="" />
-                            </Link>
+                            <div className="eswrap d-flex">
+                                <Link
+                                    to="/#"
+                                    className="es-sty animated delay1 me-4 mb-3 mb-sm-0"
+                                >
+                                    <img src="images\appIcon\play.png" alt="" />
+                                </Link>
+                                <Link
+                                    to="/#"
+                                    className="es-sty animated delay1 me-4 mb-3 mb-sm-0"
+                                >
+                                    <img
+                                        src="images\appIcon\appstore.png"
+                                        alt=""
+                                    />
+                                </Link>
+                            </div>
                         </div>
                     </div>
                     <div className="col-lg-6">
@@ -108,7 +113,10 @@ const Intro = ({ data }) => {
                             id="scene"
                             ref={sceneEl}
                         >
-                            <div data-depth="0.2">
+                            <div
+                                data-depth="0.2"
+                                className="d-flex justify-content-center"
+                            >
                                 <img
                                     className="animated"
                                     src={`${process.env.PUBLIC_URL}/${data.image}`}
