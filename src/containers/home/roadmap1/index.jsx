@@ -3,7 +3,7 @@ import SectionTitle from "../../../components/section-title";
 const Roadmap = () => {
     return (
         <div className="container about-us position-relative">
-            <div className="service-section position-relative">
+            <div className="service-section position-relative mt-3 mb-sm-0">
                 <div className="row mt-sm-4">
                     <div className="col-xl-6 col-md-6 col-sm-12 align-items-center d-flex">
                         <div className="about-content">
