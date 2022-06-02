@@ -25,6 +25,8 @@ const AboutPage = () => {
                         excerpt="We are bunch of creators, technologists, and 
                         trailblazers who think big, act bold, and are always on 
                         the lookout for solutions to tomorrow’s challenges.
+                        <br/>
+                        <br/>
                         We help our partners &amp; Individuals thrive in a 
                         digital-first world by combining engineering craftsmanship,
                         business expertise, and industry insights.
