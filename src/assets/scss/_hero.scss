@@ -64,6 +64,20 @@
     font-size: 20px;
     font-weight: bolder;
     color: #181c51;
+    width: 86%;
+    transition: color 0.1s;
+}
+.custom-font:hover {
+    color: #44ac94;
+}
+.es-sty-cust {
+    cursor: default;
+}
+.border-line {
+    background: #f0fff4;
+    height: 32px;
+    margin-top: 53px;
+    border-radius: 27px;
 }
 
 .hero-slide-content {

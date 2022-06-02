@@ -22,7 +22,13 @@ const AboutPage = () => {
                     <Header />
                     <PageBanner
                         title="About Us"
-                        excerpt="VIAN Growth Capital is a non-deposit taking NBFC which offers Curated &amp; Value-added financial solution for your business and your family needs."
+                        excerpt="We are bunch of creators, technologists, and 
+                        trailblazers who think big, act bold, and are always on 
+                        the lookout for solutions to tomorrow’s challenges.
+                        We help our partners &amp; Individuals thrive in a 
+                        digital-first world by combining engineering craftsmanship,
+                        business expertise, and industry insights.
+                        "
                         image="./images/banner/1.png"
                     />
                     <IconBoxContainer classOption="section-pt" />

@@ -87,10 +87,10 @@ const Intro = ({ data }) => {
                                 </h2>
                             </div>
                             <p
-                                className="es-sty animated delay1 custom-font"
+                                className="es-sty-cust animated delay1 custom-font"
                                 // style={{ marginBottom: "3rem" }}
                             >
-                                Oldest &amp; Smartest online marketplace
+                                Oldest &amp; Proven online marketplace
                                 infrastructure for debt funding
                             </p>
                             {/* <Button
@@ -153,6 +153,9 @@ const Intro = ({ data }) => {
                         </div>
                     </div>
                 </div>
+                {/* <div className="col-12">
+                    <span className="border-line d-flex w-100"></span>
+                </div> */}
             </div>
         </div>
     );
