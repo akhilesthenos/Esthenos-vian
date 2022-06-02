@@ -47,7 +47,10 @@ const Intro = ({ data }) => {
                                         />
                                     </span> 
                                 </h2> */}
-                                <h2 className="title animated">
+                                <h2
+                                    className="title animated"
+                                    style={{ marginBottom: "2rem" }}
+                                >
                                     Empowering
                                     <div className="buti">
                                         <Typewriter
@@ -83,6 +86,13 @@ const Intro = ({ data }) => {
                                     </div>
                                 </h2>
                             </div>
+                            <p
+                                className="es-sty animated delay1 custom-font"
+                                // style={{ marginBottom: "3rem" }}
+                            >
+                                Oldest &amp; Smartest online marketplace
+                                infrastructure for debt funding
+                            </p>
                             {/* <Button
                                 classOption="btn btn-lg animated delay1 btn-dark btn-hover-dark me-4 mb-3 mb-sm-0"
                                 text="Get Started"
@@ -105,7 +115,7 @@ const Intro = ({ data }) => {
                             >
                                 <i className="icofont-brand-android-robot size-icon"></i>
                             </Link> */}
-                            <div className="eswrap d-flex">
+                            {/* <div className="eswrap d-flex">
                                 <Link
                                     to="/#"
                                     className="es-sty animated delay1 me-4 mb-3 mb-sm-0"
@@ -121,7 +131,7 @@ const Intro = ({ data }) => {
                                         alt=""
                                     />
                                 </Link>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className="col-lg-6">
