@@ -48,7 +48,24 @@ const Intro = ({ data }) => {
                                     </span> 
                                 </h2> */}
                                 <h2 className="title animated">
-                                    Empowering Entrepreneurs through
+                                    Empowering
+                                    <div className="buti">
+                                        <Typewriter
+                                            options={{
+                                                strings: [
+                                                    "Businesses",
+                                                    "Entrepreneurs",
+                                                    "Individuals",
+                                                    "Family ",
+                                                ],
+                                                autoStart: true,
+                                                loop: true,
+                                                delay: 60,
+                                            }}
+                                        />
+                                    </div>
+                                    {/* Entrepreneurs  */}
+                                    through
                                     <div className="buti">
                                         <Typewriter
                                             options={{
@@ -60,7 +77,7 @@ const Intro = ({ data }) => {
                                                 ],
                                                 autoStart: true,
                                                 loop: true,
-                                                delay: 40,
+                                                delay: 60,
                                             }}
                                         />
                                     </div>
