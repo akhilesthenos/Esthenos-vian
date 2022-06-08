@@ -46,7 +46,7 @@ const BrandContainer = () => {
         },
     };
     return (
-        <div className="brand-section section-py">
+        <div className="brand-section section-py bg-white">
             <div className="container">
                 <div className="row">
                     <div className="col-12">

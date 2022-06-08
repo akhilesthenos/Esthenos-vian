@@ -24,7 +24,7 @@ const Intro = ({ data }) => {
                 <div className="container ">
                     <div className="row align-items-center">
                         <div className="col-lg-12">
-                            <div className="hero-slide-content">
+                            <div className="hero-slide-content mb-5">
                                 <div className="d-flex justify-content-center flex-column w-auto">
                                     <h2 className="title animated d-flex justify-content-center m-0 p-0  text-white">
                                         Empowering

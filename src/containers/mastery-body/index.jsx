@@ -27,7 +27,7 @@ const MasteryBody = () => {
                             </div>
                             <Button
                                 classOption="btn btn-lg btn-dark btn-hover-dark"
-                                text="Get Started"
+                                text="Apply Now"
                                 path="/vianTech"
                             />
                         </div>

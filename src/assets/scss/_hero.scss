@@ -19,7 +19,8 @@
     @include min-screen(1200) {
         display: flex;
         align-items: center;
-        height: 600px;
+        // height: 600px;
+        height: 100vh;
     }
     @include min-screen(1500) {
         display: flex;
@@ -214,7 +215,7 @@
     color: #84a98e;
     font-size: 19px;
     border: 1px solid #84a98e;
-    padding: 10px 25px;
+    padding: 8px 21px;
     border-radius: 50px;
     margin: 7px 9px;
     display: inline-block;
@@ -225,7 +226,7 @@
     color: #263238;
     font-size: 19px;
     border: 1px solid #263238;
-    padding: 10px 25px;
+    padding: 8px 22px;
     border-radius: 50px;
     margin: 7px 9px;
     /* transition: 20s all-ease-out; */
