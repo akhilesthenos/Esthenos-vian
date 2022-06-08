@@ -20,6 +20,7 @@ import BlogTag from "./templates/blog-tag";
 import BlogCategory from "./templates/blog-category";
 import CareerPage from "./pages/career";
 import ContactPage from "./pages/contact";
+import VianTech from "./pages/vianTech";
 // import "swiper/components/navigation/navigation.scss";
 // import "swiper/swiper.scss";
 import "./assets/css/vendor/metropolis.css";
@@ -122,6 +123,10 @@ const App = () => {
                     <Route
                         path={`${process.env.PUBLIC_URL + "/category/:slug"}`}
                         component={BlogCategory}
+                    />
+                    <Route
+                        path={`${process.env.PUBLIC_URL + "/viantech"}`}
+                        component={VianTech}
                     />
                 </Switch>
             </NavScrollTop>

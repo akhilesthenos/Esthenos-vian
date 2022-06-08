@@ -3,6 +3,14 @@
         padding-top: 50px;
     }
 }
+#angle-bg {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
 
 .hero-slider {
     position: relative;
@@ -41,7 +49,7 @@
 }
 .buti {
     // color: #7ca599 !important;
-    color: #44ac94 !important;
+    color: #fff !important;
     font-size: 60px !important;
     @include min-screen(1500) {
         font-size: 60px !important;
@@ -63,13 +71,13 @@
 .custom-font {
     font-size: 20px;
     font-weight: bolder;
-    color: #181c51;
-    width: 86%;
+    color: #fff;
+    // width: 86%;
     transition: color 0.1s;
 }
-.custom-font:hover {
-    color: #44ac94;
-}
+// .custom-font:hover {
+//     color: #44ac94;
+// }
 .es-sty-cust {
     cursor: default;
 }
@@ -161,4 +169,69 @@
         top: auto;
         bottom: 0;
     }
+}
+
+.center-head {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    height: 100px;
+    width: 100%;
+    padding: 100px;
+}
+.hr-style {
+    width: 29px;
+    height: 4px !important;
+    background-color: #00c3c0;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    margin-bottom: 30px;
+}
+.custom-p {
+    padding: 0px 108px;
+}
+.vt-background {
+    width: 100%;
+    height: 100vh;
+}
+.MasteryContainer {
+    // width: 75vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+.MasteryBodySpan {
+    color: #84a98e;
+    font-size: 19px;
+    border: 1px solid #84a98e;
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin: 7px 9px;
+    display: inline-block;
+    cursor: pointer;
+}
+.MasteryBodySpan:focus,
+.MasteryBodySpan:hover {
+    color: #263238;
+    font-size: 19px;
+    border: 1px solid #263238;
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin: 7px 9px;
+    /* transition: 20s all-ease-out; */
+    transition: all 0.3s ease 0s;
+    display: inline-block;
+}
+.hover-color:hover {
+    color: #5c8b70 !important;
 }

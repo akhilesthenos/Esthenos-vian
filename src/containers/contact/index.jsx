@@ -6,7 +6,7 @@ import ContactData from "../../data/contact.json";
 
 const ContactContainer = () => {
     return (
-        <section className="contact-section section-py">
+        <section className="contact-section section-py bg-white">
             <div className="container">
                 <div className="row mb-n7">
                     <div className="col-xl-6 col-lg-6 mb-7">

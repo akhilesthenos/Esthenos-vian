@@ -7,7 +7,9 @@ import HomeData from "../../../data/home.json";
 
 const IconBoxContainer = ({ classOption }) => {
     return (
-        <div className={`feature-section position-relative ${classOption}`}>
+        <div
+            className={`feature-section position-relative bg-white ${classOption}`}
+        >
             <img
                 className="path-img"
                 src={`${process.env.PUBLIC_URL}/images/feature/shape.png`}

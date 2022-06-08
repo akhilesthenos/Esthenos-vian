@@ -95,6 +95,7 @@ $lime-800: #d3f6dd;
 $transparent: transparent;
 // Theme Color
 $primary: #44ac94;
+// $primary: #fff;
 $secondary: $gray-600;
 $success: $green;
 $info: $cyan;
@@ -105,14 +106,14 @@ $dark: #263238;
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
-  "primary": $primary,
-  "secondary": $secondary,
-  "success": $success,
-  "info": $info,
-  "warning": $warning,
-  "danger": $danger,
-  "light": $light,
-  "dark": $dark,
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "light": $light,
+    "dark": $dark,
 );
 // scss-docs-end theme-colors-map
 
@@ -129,17 +130,17 @@ $enable-negative-margins: true;
 
 $spacer: 1rem;
 $spacers: (
-  0: 0,
-  1: $spacer * 0.3125,
-  2: $spacer * 0.625,
-  3: $spacer * 0.9375,
-  4: $spacer * 1.25,
-  5: $spacer * 1.625,
-  6: $spacer * 1.875,
-  7: $spacer * 2.1875,
-  8: $spacer * 2.5,
-  9: $spacer * 2.8125,
-  10: $spacer * 3.125,
+    0: 0,
+    1: $spacer * 0.3125,
+    2: $spacer * 0.625,
+    3: $spacer * 0.9375,
+    4: $spacer * 1.25,
+    5: $spacer * 1.625,
+    6: $spacer * 1.875,
+    7: $spacer * 2.1875,
+    8: $spacer * 2.5,
+    9: $spacer * 2.8125,
+    10: $spacer * 3.125,
 );
 
 // Grid breakpoints
@@ -149,12 +150,12 @@ $spacers: (
 
 // scss-docs-start grid-breakpoints
 $grid-breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1600px,
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1600px,
 );
 // scss-docs-end grid-breakpoints
 
@@ -164,11 +165,11 @@ $grid-breakpoints: (
 
 // scss-docs-start container-max-widths
 $container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1170px,
-  xxl: 1170px,
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1170px,
+    xxl: 1170px,
 );
 // scss-docs-end container-max-widths
 
@@ -214,7 +215,8 @@ $headings-line-height: 1.2;
 $headings-color: #263238;
 $sub-headings-color: #aaabbf;
 $card-headings-color: #181c51;
-$nav-color: #181c51;
+// $nav-color: #181c51;
+$nav-color: #fff;
 
 $hr: #080b1a;
 // Button

@@ -10,6 +10,7 @@ import TestimonialContainer from "../containers/global/testimonial";
 import HomeAboutContainer from "../containers/home/about";
 import HomeBlog from "../containers/home/blog";
 import IntroContainer from "../containers/home/intro";
+import IntroContainerAngle from "../containers/home/introAngle";
 // import RoadmapContainer from "../containers/home/roadmap";
 // import Roadmap from "../containers/home/roadmap1";
 import ServiceListContainer from "../containers/service/service-list";
@@ -24,7 +25,8 @@ const HomePage = () => {
                 <SEO title="VIAN - Growth capital" />
                 <div className="wrapper">
                     <Header />
-                    <IntroContainer />
+                    {/* <IntroContainer /> */}
+                    <IntroContainerAngle />
                     {/* <Roadmap /> */}
                     {/* <RoadmapContainer /> */}
                     <BrandContainer />

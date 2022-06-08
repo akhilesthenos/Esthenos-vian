@@ -12,7 +12,7 @@ import Comment from "../../../components/comment";
 
 const BlogDetailsContainer = ({ data }) => {
     return (
-        <div className="blog-section section-py">
+        <div className="blog-section section-py bg-white">
             <div className="container">
                 <div className="row mb-n7">
                     <div className="col-xl-8 col-lg-8 mb-7">

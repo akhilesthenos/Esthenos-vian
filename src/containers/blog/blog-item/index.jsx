@@ -4,7 +4,7 @@ import BlogGrid from "../../../components/blog";
 
 const BlogItemContainer = ({ data }) => {
     return (
-        <section className="blog-section section-py">
+        <section className="blog-section section-py bg-white">
             <div className="container">
                 <div className="row mb-n7">
                     {data &&

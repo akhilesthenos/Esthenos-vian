@@ -8,6 +8,8 @@ import PageBanner from "../containers/global/page-banner";
 import Footer from "../layouts/footer";
 import Header from "../layouts/header";
 import Layout from "../layouts/index";
+import CareerContainer from "../containers/career";
+import MasteryBody from "../containers/mastery-body";
 
 const CareerPage = () => {
     return (
@@ -25,9 +27,11 @@ const CareerPage = () => {
                         career@viancapital.com"
                         image="./images/career/1.png"
                     />
+                    <CareerContainer />
+                    <MasteryBody />
                     {/* <RoadMap /> */}
-                    {/* <ContactContainer />
-                    <NewsletterArea /> */}
+                    {/* <ContactContainer /> */}
+                    {/* <NewsletterArea /> */}
                     <Footer />
                     <ScrollToTop />
                 </div>

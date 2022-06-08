@@ -5,7 +5,7 @@ import ServiceData from "../../../data/service.json";
 
 const ServiceListContainer = () => {
     return (
-        <div className="service-section section-pt position-relative">
+        <div className="service-section section-pt position-relative bg-white">
             <div className="container">
                 <div className="row">
                     <div className="col-xl-6 col-lg-8 mx-auto">
