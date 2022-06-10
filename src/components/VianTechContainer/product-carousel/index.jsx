@@ -22,10 +22,10 @@ const ProductCarousel = () => {
         loop: true,
         speed: 1000,
         slidesPerView: 1,
-        // autoplay: {
-        //     delay: 3000,
-        //     disableOnInteraction: false,
-        // },
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
         spaceBetween: 0,
         navigation: {
             nextEl: ".product-carousel .swiper-button-next",
