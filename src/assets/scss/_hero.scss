@@ -9,7 +9,7 @@
     position: absolute;
     top: 0;
     width: 100%;
-    z-index: -1;
+    z-index: -1000;
 }
 
 .hero-slider {
@@ -69,6 +69,7 @@
         font-size: 45px !important;
     }
 }
+
 .custom-font {
     font-size: 20px;
     font-weight: bolder;
@@ -81,7 +82,27 @@
 // }
 .es-sty-cust {
     cursor: default;
+    @include min-screen(1920) {
+        font-size: 2rem;
+    }
+    @include min-screen(1500) {
+        font-size: 53px;
+    }
+    @include max-screen(992, 1199) {
+        font-size: 38px;
+    }
+    @include max-screen(767) {
+        font-size: 28px;
+        line-height: 1.4;
+    }
+    @include max-screen(480) {
+        font-size: 1rem;
+    }
+    @include max-screen(576, 767) {
+        font-size: 38px;
+    }
 }
+
 .border-line {
     background: #f0fff4;
     height: 32px;
@@ -93,6 +114,7 @@
     .title {
         font-weight: 700;
         font-size: 53px;
+        cursor: default;
         @include min-screen(1500) {
             font-size: 53px;
         }
@@ -199,10 +221,7 @@
 .custom-p {
     padding: 0px 108px;
 }
-.vt-background {
-    width: 100%;
-    height: 100vh;
-}
+
 .MasteryContainer {
     // width: 75vw;
     display: flex;
@@ -235,4 +254,194 @@
 }
 .hover-color:hover {
     color: #5c8b70 !important;
+}
+// vian tech scss
+.vt-background {
+    // width: 100%;
+    // height: 100%;
+}
+.tech-container {
+    margin: 67px;
+    width: auto;
+    @include min-screen(1500) {
+        font-size: 60px !important;
+    }
+    @include max-screen(992, 1199) {
+        font-size: 45px !important;
+        margin: 0px !important;
+    }
+    @include max-screen(820) {
+        font-size: 35px !important;
+        line-height: 1.4;
+        margin: 0px !important;
+    }
+    @include max-screen(767) {
+        font-size: 35px !important;
+        line-height: 1.4;
+        margin: 0px !important;
+    }
+    @include max-screen(480) {
+        font-size: 30px !important;
+        margin: 0px !important;
+    }
+    @include max-screen(576, 767) {
+        font-size: 45px !important;
+    }
+}
+.tech-head-title {
+    width: 980px;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 1.06;
+    letter-spacing: -0.02em;
+    color: #306956;
+    @include min-screen(1920) {
+        font-size: 2rem;
+    }
+    @include min-screen(1500) {
+        font-size: 53px;
+    }
+    @include max-screen(992, 1199) {
+        font-size: 38px;
+    }
+    @include max-screen(820) {
+        font-size: 28px;
+    }
+    @include max-screen(767) {
+        font-size: 28px;
+        line-height: 1.4;
+    }
+    @include max-screen(480) {
+        font-size: 1rem;
+    }
+    @include max-screen(576, 767) {
+        font-size: 38px;
+    }
+}
+.tech-head-title-tw {
+    font-size: 90px;
+    color: #7ca599;
+    font-weight: 700;
+}
+.vt-buti {
+    color: #7ca599;
+    font-size: 60px;
+    font-weight: 700;
+    @include min-screen(1920) {
+        font-size: 2rem;
+    }
+    @include min-screen(1500) {
+        font-size: 53px;
+    }
+    @include max-screen(992, 1199) {
+        font-size: 38px;
+    }
+    @include max-screen(820) {
+        font-size: 27px;
+    }
+    @include max-screen(767) {
+    }
+    @include max-screen(480) {
+        font-size: 1rem;
+    }
+    @include max-screen(576, 767) {
+    }
+}
+
+.products-head {
+    font-weight: 700;
+    justify-content: center;
+    display: flex;
+    color: #000;
+    padding-top: 33px;
+    margin: 46px 0px;
+}
+.products-background {
+    background: #8fbc8fe6;
+    height: 100vh;
+}
+.products-one {
+    color: #f4f8f4;
+    font-weight: 700;
+    text-align: right;
+}
+.product-carousel {
+    .swiper-button-prev,
+    .swiper-button-next {
+        top: auto;
+        margin-top: 0;
+        bottom: -80px;
+        color: #fff;
+        text-transform: capitalize;
+        text-decoration: none;
+    }
+    .swiper-button-prev {
+        width: auto;
+        left: 100px;
+    }
+
+    .swiper-button-next {
+        width: auto;
+        right: 120px;
+    }
+}
+.product-carousel {
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+        display: none;
+    }
+}
+.productCarouselBtn {
+    // color: #fff;
+    // font-size: 19px;
+    // border: 1px solid #fff;
+    // padding: 8px 21px;
+    // border-radius: 50px;
+    // margin: 7px 9px;
+    // display: inline-block;
+    // cursor: pointer;
+    color: #fff;
+    font-size: 21px;
+    border: 5px solid #fff;
+    padding: 1px 15px;
+    border-radius: 50px;
+    margin: 7px 9px;
+    display: inline-block;
+    cursor: pointer;
+}
+.productCarouselBtn:focus,
+.productCarouselBtn:hover {
+    color: #1e77bb;
+    font-size: 21px;
+    border: 5px solid #1e77bb;
+    padding: 1px 15px;
+    border-radius: 50px;
+    margin: 7px 9px;
+    /* transition: 20s all-ease-out; */
+    transition: all 0.3s ease 0s;
+    display: inline-block;
+}
+// bargraph scss
+
+.order-status{
+    display: flex;
+    flex-wrap: wrap;
+    color: red;
+    margin-top: 120px;
+    margin-bottom: 90px;
+}
+.hero-shapeTech1{
+    position: absolute;
+    top: 184px;
+    left: 91px;
+    width: 13%;
+    transform: rotate(45deg);
+}
+.hero-shapeTech2{
+    position: absolute;
+    top: 0px;
+    left: 448px;
+}
+.products-head-space{
+    height: 122px;
 }

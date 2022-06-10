@@ -5,78 +5,55 @@ import { Nav } from "./NavLinkCust";
 const MasteryContainer = () => {
     return (
         <div className="MasteryContainer">
-            <span className="MasteryBodySpan">
-                <NavLink
-                    className="hover-color"
-                    to={process.env.PUBLIC_URL + "/viantech"}
-                >
-                    Android
-                </NavLink>
-            </span>
-            {/* <NavLinkCust url="viantech" clsName="MasteryBodySpan"/> */}
-            <span className="MasteryBodySpan">
-                {" "}
-                <NavLink
-                    className="hover-color"
-                    to={process.env.PUBLIC_URL + "/viantech"}
-                >
-                    Backend
-                </NavLink>
-            </span>
-            <span className="MasteryBodySpan">
-                {" "}
-                <NavLink
-                    className="hover-color"
-                    to={process.env.PUBLIC_URL + "/viantech"}
-                >
-                    Web
-                </NavLink>
-            </span>
-            <span className="MasteryBodySpan">
-                {" "}
-                <NavLink
-                    className="hover-color"
-                    to={process.env.PUBLIC_URL + "/viantech"}
-                >
-                    iOS
-                </NavLink>
-            </span>
-            <span className="MasteryBodySpan">
-                {" "}
-                <NavLink
-                    className="hover-color"
-                    to={process.env.PUBLIC_URL + "/viantech"}
-                >
-                    DevSecOps
-                </NavLink>
-            </span>
-            <span className="MasteryBodySpan">
-                {" "}
-                <NavLink
-                    className="hover-color"
-                    to={process.env.PUBLIC_URL + "/viantech"}
-                >
-                    Data Engineering
-                </NavLink>
-            </span>
-            <span className="MasteryBodySpan">
-                {" "}
-                <NavLink
-                    className="hover-color"
-                    to={process.env.PUBLIC_URL + "/viantech"}
-                >
-                    PoS/IoT
-                </NavLink>
-            </span>
-            <span className="MasteryBodySpan">
-                {" "}
-                <NavLink
-                    className="hover-color"
-                    to={process.env.PUBLIC_URL + "/viantech"}
-                >
-                    QA &#40;automation&#41;
-                </NavLink>
-            </span>
+            <NavLink
+                className="hover-color"
+                to={process.env.PUBLIC_URL + "/viantech"}
+            >
+                <span className="MasteryBodySpan">Android</span>
+            </NavLink>
+            {/* <NavLinkCust url="viantech" clsName="MasteryBodySpan"/> */}{" "}
+            <NavLink
+                className="hover-color"
+                to={process.env.PUBLIC_URL + "/viantech"}
+            >
+                <span className="MasteryBodySpan">Backend</span>
+            </NavLink>{" "}
+            <NavLink
+                className="hover-color"
+                to={process.env.PUBLIC_URL + "/viantech"}
+            >
+                <span className="MasteryBodySpan">Web</span>
+            </NavLink>{" "}
+            <NavLink
+                className="hover-color"
+                to={process.env.PUBLIC_URL + "/viantech"}
+            >
+                <span className="MasteryBodySpan">iOS</span>
+            </NavLink>{" "}
+            <NavLink
+                className="hover-color"
+                to={process.env.PUBLIC_URL + "/viantech"}
+            >
+                <span className="MasteryBodySpan">DevSecOps</span>
+            </NavLink>{" "}
+            <NavLink
+                className="hover-color"
+                to={process.env.PUBLIC_URL + "/viantech"}
+            >
+                <span className="MasteryBodySpan">Data Engineering</span>
+            </NavLink>{" "}
+            <NavLink
+                className="hover-color"
+                to={process.env.PUBLIC_URL + "/viantech"}
+            >
+                <span className="MasteryBodySpan">PoS/IoT</span>
+            </NavLink>{" "}
+            <NavLink
+                className="hover-color"
+                to={process.env.PUBLIC_URL + "/viantech"}
+            >
+                <span className="MasteryBodySpan">QA &#40;automation&#41;</span>
+            </NavLink>
         </div>
     );
 };

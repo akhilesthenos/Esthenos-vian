@@ -20,7 +20,7 @@ const MasteryBody = () => {
                                             process.env.PUBLIC_URL + "/viantech"
                                         }
                                     >
-                                        vian.tech.com
+                                        tech.vian.com
                                     </NavLink>{" "}
                                     for details.
                                 </p>
@@ -28,7 +28,7 @@ const MasteryBody = () => {
                             <Button
                                 classOption="btn btn-lg btn-dark btn-hover-dark"
                                 text="Apply Now"
-                                path="/vianTech"
+                                path="/viantech"
                             />
                         </div>
                     </div>
