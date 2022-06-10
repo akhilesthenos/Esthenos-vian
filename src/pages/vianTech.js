@@ -9,7 +9,7 @@ const vianTech = () => {
         <React.Fragment>
             <Layout>
                 <SEO title="VIAN – TECH" />
-                <div className="bg-white vt-background">
+                <div className="bg-white overflow-hidden vt-background">
                     <HeadingSection />
                     <ProductCarousel />
                 </div>
